@@ -2,7 +2,7 @@
 description: 'meta description of the page'
 published_at: 2024-07-20
 --- 
-# Hello There, I'm Piotr
+# Hello There, I'm Nico
 
 ## About me
 
