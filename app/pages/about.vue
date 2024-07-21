@@ -1,15 +1,5 @@
 <template>
-    <div>
-        About page
-    </div>
-    <!-- <div>
-        <button @click="enableCustomLayout">Update layout</button>
-    </div> -->
+    <article class="prose dark:prose-invert prose-h1:text-2xl">
+        <!-- <ContentDoc path="../content/about" /> -->
+    </article>
 </template>
-
-
-<script setup>
-useHead({
-    title: 'About'
-})
-</script>
