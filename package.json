@@ -18,5 +18,8 @@
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^18.17.1",
     "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "sitemap": "^8.0.0"
   }
 }
