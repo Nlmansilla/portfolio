@@ -7,12 +7,9 @@
             </template>
             <template v-slot="{ doc }">
                 <div class="grid grid-cols-6 gap-16">
-                <div :class="{'col-span-4': doc.toc, 'col-span-6': !doc.toc}">
-                    <ContentRenderer :value="doc" />
+                    <div :class="{ 'col-span-6 md:col-span-4': doc.toc, 'col-span-6': !doc.toc }">                    <ContentRenderer :value="doc" />
                 </div>
-                <div class="col-span-2 not-prose"
-                :class="{'ml-4': level}" 
-                v-if="doc.toc">
+                <div class="hidden md:col-span-2 md:block not-prose" v-if="doc.toc">
                     <aside class="sticky top-8">
                         <div class="font-semibold mb-2">
                             Table of Contents
