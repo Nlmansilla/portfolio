@@ -1,11 +1,5 @@
 <template>
-    <div>
-        Main Page
-    </div>
+    <article class="prose dark:prose-invert prose-h1:text-2xl max-w-none">
+        <ContentDoc path="/" />
+    </article>
 </template>
-
-<script setup>
-useHead({
-    title: 'Home'
-})
-</script>
